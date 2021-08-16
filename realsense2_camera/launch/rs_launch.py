@@ -27,7 +27,7 @@ configurable_parameters = [{'name': 'camera_name',                  'default': '
                            {'name': 'usb_port_id',                  'default': "''", 'description': 'choose device by usb port id'},
                            {'name': 'device_type',                  'default': "''", 'description': 'choose device by type'},
                            {'name': 'config_file',                  'default': "''", 'description': 'yaml config file'},
-                           {'name': 'enable_pointcloud',            'default': 'false', 'description': 'enable pointcloud'},
+                           {'name': 'enable_pointcloud',            'default': 'true', 'description': 'enable pointcloud'},
                            {'name': 'unite_imu_method',             'default': "''", 'description': '[copy|linear_interpolation]'},
                            {'name': 'json_file_path',               'default': "''", 'description': 'allows advanced configuration'},
                            {'name': 'output',                       'default': 'screen', 'description': 'pipe node output [screen|log]'},
